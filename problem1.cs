@@ -2,12 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 class Solution {
-
-    static int solveMeFirst(int a, int b) { 
-      // Hint: Type return a+b; below  
-      int c=a+b;
-      return c;
-      
+    static int solveMeFirst(int a, int b) {
+      return a+b;
     }
 
     static void Main(String[] args) {
