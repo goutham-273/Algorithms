@@ -14,25 +14,14 @@ using System;
 
 class Result
 {
-
-    /*
-     * Complete the 'compareTriplets' function below.
-     *
-     * The function is expected to return an INTEGER_ARRAY.
-     * The function accepts following parameters:
-     *  1. INTEGER_ARRAY a
-     *  2. INTEGER_ARRAY b
-     */
-
     public static List<int> compareTriplets(List<int> a, List<int> b)
-    {List<int> r=new List<int>();
+    {
+    List<int> r=new List<int>();
     int r1=0,r2=0,i=0;
     for(i=0;i<3;i++)
     {
     if(a.ElementAt(i)>b.ElementAt(i))
     {r1++;}
-    if(a.ElementAt(i)==b.ElementAt(i))
-    {;}
     if(a.ElementAt(i)<b.ElementAt(i))
     {r2++;}
     }
@@ -40,7 +29,6 @@ class Result
     r.Add(r2);
     return r;
     }
-
 }
 
 class Solution
