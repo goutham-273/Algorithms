@@ -15,12 +15,12 @@ using System;
 class Result
 {
     public static int simpleArraySum(List<int> ar)
-    {int i;
-     var sum=0;
-    for(i=0;i<ar.Count;i++)
-    {sum=sum+ar[i];}
-    return sum;
-    }
+        {int i;
+        var sum=0;
+        for(i=0;i<ar.Count;i++)
+            {sum=sum+ar[i];}
+        return sum;
+        }
 }
 
 class Solution
